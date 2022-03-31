@@ -48,7 +48,6 @@ public class SuperSorter {
         quickSort(0, superList.size() - 1, superList);
     }
 
-
     private <E> void quickSort(int left,
                                int right,
                                SuperList<E> superList,
@@ -89,7 +88,6 @@ public class SuperSorter {
         quickSort(left, l - 1, superList, comparator);
         quickSort(l + 1, right, superList, comparator);
     }
-
 
     private <E extends Comparable> void quickSort(int left, int right, SuperList<E> superList) {
         if (left >= right) {
