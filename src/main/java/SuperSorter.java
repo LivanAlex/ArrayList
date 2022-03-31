@@ -1,5 +1,11 @@
 import java.util.Comparator;
 
+/**
+ *  SuperSorter - is singleton class needed to sort SuperList collections
+ *  use getInstance() method to get instance of class
+ *
+ *  @author Ivan Lysikov
+ */
 public class SuperSorter {
 
     private static SuperSorter sorter;

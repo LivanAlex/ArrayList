@@ -1,6 +1,13 @@
 import java.util.Arrays;
 import java.util.Iterator;
 
+/**
+ *  Probably, the best, fastest and secure collection ever.
+ *  Use it, and you will be pretty and healthy!
+ *  It uses super secret algorithms, and nobody knows how it works, even author @author Ivan Lysikov
+ *
+ * @param <E> - any type
+ */
 public class SuperList<E> implements Iterable<E> {
     private static final int DEFAULT_SIZE = 10;
     private int size;
